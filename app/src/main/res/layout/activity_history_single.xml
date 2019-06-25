@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HistorySingleActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+         <fragment
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:id="@+id/map"/>
+
+        <TextView
+            android:id="@+id/previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:alpha=".8"
+            android:background="#1B86A8"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Order Information"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From - To"
+                android:layout_marginTop="6sp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="3sp"
+                android:id="@+id/rideLocation"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="6dp"
+                android:background="#D2948A8A"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="6sp"
+                android:layout_marginBottom="3sp"
+                android:id="@+id/rideDistance"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="6dp"
+                android:background="#D2948A8A"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:layout_marginTop="6sp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3sp"
+                android:id="@+id/rideDate"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="6dp"
+                android:background="#D2948A8A"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Price"
+                android:layout_marginTop="6sp"
+                android:textSize="16sp"
+                android:layout_marginBottom="3sp"
+                android:id="@+id/price"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="6dp"
+                android:background="#D2948A8A"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/userImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/ic_profile"
+                app:civ_border_color="@color/splash"
+                app:civ_border_width="1dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="3sp"
+                    android:id="@+id/userName"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#D2948A8A"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="phone"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6sp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="3sp"
+                    android:id="@+id/userPhone"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#D2948A8A"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="7dp"
+            android:background="#D2948A8A"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Rating : "
+            android:textStyle="bold"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="10sp"
+            android:visibility="gone"
+            android:layout_marginRight="22sp"
+            android:textSize="19sp"
+            android:layout_marginBottom="3sp"
+            android:id="@+id/ratingText"
+            android:layout_width="wrap_content" />
+        <RatingBar
+            android:layout_height="wrap_content"
+            android:id="@+id/rating_bar"
+            android:visibility="gone"
+            android:numStars="5"
+            android:stepSize="1"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#D2948A8A"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pay"
+            android:alpha="0.8"
+            android:visibility="gone"
+            android:textColor="#FDFDFE"
+            android:layout_margin="20dp"
+            android:background="@drawable/pay_button"
+            android:textSize="20sp"
+            android:shadowColor="@android:color/transparent"
+            android:text="PAy Here"
+            android:enabled="false"/>
+
+
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

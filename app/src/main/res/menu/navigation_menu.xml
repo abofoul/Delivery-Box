@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profileMenuItem"
+        android:title="@string/profile_menu"
+        android:icon="@drawable/ic_user"
+        />
+
+    <item android:id="@+id/historyMenuItem"
+        android:title="@string/history_menu"
+        android:icon="@drawable/ic_history_black_24dp"/>
+
+    <item android:id="@+id/logoutMenuItem"
+        android:title="@string/logout_menu"
+        android:icon="@drawable/ic_logout"/>
+
+    <item android:id="@+id/reportMenuItem"
+        android:title="@string/report_menu"
+        android:icon="@drawable/ic_history_black_24dp"/>
+
+
+</menu>

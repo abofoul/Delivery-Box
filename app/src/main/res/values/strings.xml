@@ -1,0 +1,55 @@
+<resources>
+
+
+    >>>>>>> 7c35baad44de47a909d0108a2a8ad072ef8fa9bc
+    <string name="app_name">Delivery Box</string>
+    >>>>>>> 7a1db78a8bea21956088e92c100124a1822038b3
+    <string name="title_activity_driver_map">Map</string>
+    <string name="driver_text">Driver</string>
+    <string name="customer_text">Customer</string>
+    <string name="mail_text">E-mail</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Sign In</string>
+    <string name="registration_text">Sign up</string>
+    <string name="title_activity_testing">Map</string>
+    <string name="logout_text">logout</string>
+    <string name="call_delivery_text">Call Delivery</string>
+    <string name="settings_text">settings</string>
+    <string name="name_text">Name</string>
+    <string name="phone_text">Phone</string>
+    <string name="confirm_text">Confirm</string>
+    <string name="back_text">Back</string>
+    <string name="pick_customer_text">Pick Customer</string>
+    <string name="history_text">History</string>
+    <string name="history_menu">History</string>
+    <string name="profile_menu">My Profile</string>
+    <string name="logout_menu">Logout</string>
+    <string name="report_menu">Report</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="customer">Customer</string>
+    <string name="driver">Driver</string>
+    <string name="re_enter_password">confirm_password</string>
+    <string name="confirm_password">Re-enter password</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="car">Car</string>
+    <string name="no_account_text">Create new account..</string>
+    <string name="destination">Destination :</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_settings">Profile</string>
+    <string name="drawer_item_history">History</string>
+    <string name="drawer_item_Logout">Logout</string>
+    <string name="drawer_item_report">Report</string>
+    <string name="stop_working">Working</string>
+    <string name="start_working">Idle</string>
+    <string name="picked">Deliverable Picked</string>
+    <string name="empty_history">Your history is empty</string>
+    <string name="report_text">Type your problem here</string>
+    <string name="submit">Submit</string>
+    <string name="report_finish">Thank you . We will contact you ASAP</string>
+    <string name="help_information">Help Information</string>
+    <string name="make_order">Make Order :</string>
+    <string name="show_history">Show History :</string>
+    <string name="help">Help</string>
+</resources>

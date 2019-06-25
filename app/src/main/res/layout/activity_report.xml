@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".historyRecyclerView.ReportActivity"
+    android:background="@drawable/gradient_background">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportToolbar"
+        android:background="#00B0FF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/report_text"
+        android:background="@drawable/edittexts"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:id="@+id/report_message"
+        android:textColor="@color/quantum_black_text"
+        android:textStyle="bold"
+        android:shadowRadius="3"
+        android:elevation="1dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submit_report"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:background="@drawable/button_shape"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_finish"
+        android:layout_gravity="center"
+        android:id="@+id/done_report"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_correct"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:elevation="1dp"
+        />
+
+
+</LinearLayout>
