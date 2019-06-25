@@ -1,14 +1,15 @@
 # Delivery-Box
 A mobile application for delivery services . Just as Uber you can call a working driver to come and pick you up something from you to deliver it to your destination .  
 
+![Screenshot](https://i.ibb.co/Bt40TCc/login-2.png)
+![Screenshot](https://i.ibb.co/LzNzNgm/login.png)
+![Screenshot](https://i.ibb.co/t3dn4tc/auto-complete.png)
+![Screenshot](https://i.ibb.co/WvLVJ4Y/driver.png)
+![Screenshot](https://i.ibb.co/wRn7RXR/history.png)
 ![Screenshot](https://i.ibb.co/R2x0Nxc/single-history.png)
-![Screenshot](https://i.ibb.co/k8wyL7T/paypal2.png)
-![Screenshot](https://i.ibb.co/PzcCDby/paypal.png)
-![Screenshot](https://i.ibb.co/MDBDB1r/login.png)
-![Screenshot](https://i.ibb.co/XbycFCj/login-2.png)
-![Screenshot](https://i.ibb.co/BthGtxt/history.png)
-![Screenshot](https://i.ibb.co/4RH1rn5/driver.png)
-![Screenshot](https://i.ibb.co/4JQC7GM/auto-complete.png)
+![Screenshot](https://i.ibb.co/prfXhsT/paypal.png)
+![Screenshot](https://i.ibb.co/swNPTf4/paypal2.png)
+
 
 
 ▷ Watch a tutorial of the app working : https://drive.google.com/open?id=1iTjlpZSYOcD_Js3BJ3zOZgjBI8YNQL-L
